@@ -1,0 +1,25 @@
+---
+- author:
+    name: Ramon de C Valle
+    email: rcvalle-gravatar.7xz9k@simplelogin.com
+    username: rcvalle
+  description: |
+    We wrote [an exploit][1] for the [Linux kernel sock_sendpage NULL pointer
+    dereference vulnerability][2], discovered by Tavis Ormandy and Julien Tinnes,
+    to illustrate the exploitability of this vulnerability on Linux running on
+    Power/Cell BE architecture -based processors.
+
+    The exploit uses the SELinux policy and the mmap_min_addr protection issue
+    (CVE-2009-2695) to exploit this vulnerability on Red Hat Enterprise Linux 5.3
+    and CentOS 5.3. The problem, first noticed by Brad Spengler, was described by
+    Red Hat in the Red Hat Knowledgebase article: [Security-Enhanced Linux
+    (SELinux) policy and the mmap_min_addr protection (CVE-2009-2695)][3]
+
+    [1]: https://github.com/rcvalle/exploits/raw/HEAD/linux-sendpage.c
+    [2]: https://blog.cr0.org/2009/08/linux-null-pointer-dereference-due-to.html
+    [3]: https://access.redhat.com/articles/17995
+  filename: illustrating-the-linux-sock_sendpage-null-pointer-dereference-on-power-cell-be-architecture.md
+  name: Illustrating the Linux sock_sendpage() NULL Pointer Dereference on Power/Cell BE Architecture
+  published: 2009-08-31 00:00:00.000000000 Z
+  updated: 2009-09-10 00:00:00.000000000 Z
+  url: 2009/08/31/illustrating-the-linux-sock_sendpage-null-pointer-dereference-on-power-cell-be-architecture.md
