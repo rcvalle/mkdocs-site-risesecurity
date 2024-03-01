@@ -1,0 +1,16 @@
+---
+- description: This project contains a set of assembly components for proof of concept
+    codes (i.e., "shellcodes") for different operating systems and architectures.
+    These components were carefully designed and implemented for maximum reliability,
+    following strict coding standards and requirements, such as system call invocation
+    standards, position-independent, register-independent and zero-free code. A special
+    attention was put on code length when designing and implementing them, resulting
+    in the most reliable and shortest codes for such purpose available today.
+  filename: unixasm-1.4.0.tar.gz
+  name: UNIX Assembly Components for Proof of Concept Codes
+  published: 2004-10-24 00:00:00.000000000 Z
+  resources:
+  - name: View on GitHub
+    url: https://github.com/risesecurity/unixasm
+  updated: 2010-05-23 00:00:00.000000000 Z
+  url: https://github.com/risesecurity/archive/raw/HEAD/unixasm-1.4.0.tar.gz
